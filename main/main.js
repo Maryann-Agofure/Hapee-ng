@@ -1,4 +1,4 @@
-const formSub = document.getElementsByTagName('form')
+/*const formSub = document.getElementsByTagName('form')
         const submitButton = document.getElementsByClassName('sub-button')
         submitButton.addEventListener('click', function removeDiv(){
             formSub.style.display = none;
@@ -9,4 +9,5 @@ const formSub = document.getElementsByTagName('form')
             const heading= document.getElementsByClassName('container');
             heading.appendChild(welcomeMessage);
             welcomeMessage.style.display = block;
-        })
+        })*/
+        console.log('Ann')

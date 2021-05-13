@@ -139,6 +139,22 @@ h1 {
   width: 100vw;
   height: 100vh;
 }
+.process {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+.processSection {
+  display: grid;
+  width: 80%;
+  justify-self: center;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+.processSection > section {
+  width: 60%;
+}
 form h2 {
   font-family: Cambria, Josefin, sans-serif, Helvetica;
   color: #587957;
@@ -160,7 +176,7 @@ form > p {
 }
 .form-portion {
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-flow: row nowrap;
@@ -248,7 +264,7 @@ p {
   display: flex;
   flex-flow: row nowrap;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 .holder11 {
   width: 40%;
@@ -267,7 +283,7 @@ p {
 .holder2 {
   margin: 2rem 0.5rem;
   padding-top: 1rem;
-  height: 70vh;
+  height: 90vh;
 }
 .holder22 {
   display: grid;
@@ -418,6 +434,81 @@ footer {
   width: 90%;
   font-size: 0.8rem;
   line-height: 1.2rem;
+  padding: 1rem;
+}
+footer {
+  height: 60vh;
+}
+
+.footerDiv {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  width: 85%;
+}
+.footerSub {
+  margin: 1.5rem 1rem;
+  padding: 0;
+  display: inline-block;
+  width: 47%;
+  height: 41px;
+  border: 1px solid #bfebd3;
+  background-color: #f1fcf6;
+}
+.subscribeText {
+  width: 60%;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+.footerSub > button {
+  width: auto;
+  padding: 0.8rem 1.2rem 1.5rem 0.9rem;
+  height: 90%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #346634;
+  color: #f1fcf6;
 }
 span {
+  border-top: 1px solid #f1fcf6;
+  height: 3px;
+  width: 85%;
+  margin: 0 auto;
+}
+.footerNav {
+  width: 30%;
+}
+.navLinks > ul {
+  list-style-type: none;
+  margin: 1.3rem;
+}
+.navLinks > ul li {
+  padding: 0.3rem;
+}
+.navLinks > ul li a,
+footer > p {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #bfebd3;
+}
+.mediaLinks {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+}
+.mediaLinks > li {
+  padding: 0.5rem 1rem;
+}
+.mediaLinks > li a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f7fff7;
+  align-items: center;
+}
+footer > p {
+  padding: 0.2rem;
 }
