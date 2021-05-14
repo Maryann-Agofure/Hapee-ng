@@ -10,4 +10,17 @@
             heading.appendChild(welcomeMessage);
             welcomeMessage.style.display = block;
         })*/
-        console.log('Ann')
+        //Creating a pop-modal that pops up on click of the 'let's get started button"
+        let triggerButton = document.querySelector('.trigger')
+        let modal = document.querySelector('.popModal')
+        let modalCloseBtn = document.querySelector('.modalCloseBtn')
+
+        triggerButton.onclick = function(){
+            modal.style.display = "block"
+          }
+
+
+        modalCloseBtn.onclick = function(){
+            modal.style.display = "none"
+          }
+          
