@@ -102,6 +102,10 @@ h1 {
   color: whitesmoke;
   cursor: pointer;
 }
+.part1 > button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 .part1 > button:hover {
   background-color: #346634;
   color: whitesmoke;
@@ -569,16 +573,20 @@ footer > p {
   border: 1px solid #37ca83;
   border-radius: 0.2rem;
   display: none;
-  width: 40%;
-  height: 20%;
+  z-index: 1;
+  width: 70%;
+  height: 150px;
   background-color: #f7fff7;
   position: fixed;
-  padding-top: 10rem;
-  left: 250px;
-  right: 250px;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
 }
 .popContent {
   position: relative;
+  width: 85%;
+  border: 1px solid #37ca83;
+  border-radius: 0.2rem;
   animation-name: pop-in;
   animation-duration: 0.8s;
   margin: 0 auto;
