@@ -69,5 +69,27 @@
           }
           validate()
 
+          let time = 5000;
+          let i = 0;
+          let slideImages = []
+
+          slideImages[0] = ''
+          slideImages[1] = ''
+          slideImages[2] = ''
+
+          function changeImage(){
+
+            document.slide.src = slideImages[i]
+            if(i < slideImages.length - 1){
+              i++
+            }else{
+              i = 0;
+            }
+
+            setTimeout('changeImage()', time)
+          }
+
+          window.onload = changeImage
+
 
           

@@ -317,23 +317,28 @@ p {
 }
 
 .holder1 {
-  margin: 1rem 1.3rem;
+  margin: 1rem;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   width: 100vw;
   height: 100vh;
 }
 .holder11 {
-  width: 40%;
-  background-image: url("../images/leigh-cooper-YGETh6y8MDI-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 7rem;
-  height: 60vh;
+  display: block;
+  width: 90vw;
+  height: 30vh;
+}
+.holder11 > img {
+  width: 80vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+.holder11 > button {
+  margin: 0 auto;
+  text-align: left;
 }
 .holder12 {
-  width: 50%;
+  width: 80%;
   padding: 1rem 1.2rem;
   margin: 0 auto;
 }
