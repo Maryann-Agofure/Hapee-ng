@@ -228,5 +228,28 @@
        
    </div>
    <script src="./main/main.js"></script>
+   <script>
+     let time = 5000;
+          let i = 0;
+          let slideImages = []
+
+          slideImages[0] = './images/togethermenopause.jpg'
+          slideImages[1] = './images/stil-flRm0z3MEoA-unsplash.jpg'
+          slideImages[2] = './images/shane-rounce-DNkoNXQti3c-unsplash.jpg'
+
+          function changeImage(){
+
+            document.slide.src = slideImages[i]
+            if(i < slideImages.length - 1){
+              i++
+            }else{
+              i = 0;
+            }
+
+            setTimeout('changeImage()', time)
+          }
+
+          window.onload = changeImag  
+   </script>
 </body>
 </html>

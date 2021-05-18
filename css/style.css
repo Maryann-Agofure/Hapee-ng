@@ -464,37 +464,39 @@ footer {
   display: flex;
   width: 100vw;
   background: linear-gradient(90deg, #dff5df 0, #f1fcf6 78%);
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-  height: 70vh;
+  flex-flow: column nowrap;
+
+  height: 100vh;
+
+  justify-content: space-evenly;
 }
-.reviewPortion img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.review1 {
+  text-align: left;
+}
+.review2 {
+  text-align: right;
 }
 .reviewPortion > section {
-  background: rgba(120, 168, 142, 0.2);
-  backdrop-filter: blur(10px) saturate(90%) contrast(45%) brightness(130%);
-  -webkit-backdrop-filter: blur(10px) saturate(90%) contrast(45%)
-    brightness(130%);
-  margin: 0 1rem;
-  border: 1px solid #587957;
-  border-radius: 15px;
-  padding: 1rem;
-
-  text-align: center;
-  width: 40vw;
-  height: 55%;
+  border: 1px solid #63a789;
+  width: 80%;
+  height: 35%;
+  padding: 1.3rem;
+  margin: 0 auto;
+}
+.reviewPortion img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
 }
 
 .reviewPortion > h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  padding-right: 3rem;
+  text-align: center;
 }
 .reviewPortion p {
   width: 90%;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.2rem;
   padding: 1rem;
 }
